@@ -1,0 +1,40 @@
+.big-image-carousel-container {
+    width: 393px;
+    height: 250px;
+    position: relative;
+}
+.big-image-carousel {
+    height: 250px;
+    overflow-x: hidden;
+}
+.slider {
+    height: 100%;
+    display: flex;
+}
+.slider img {
+    flex-basis: 100%;
+}
+.meatball-container {
+    background: rgba(150, 150, 150, 0.8);
+    z-index: 999;
+    width: 80px;
+    height: 24px;
+    border-radius: 24px;
+    position: absolute;
+    top: 214px;
+    left: 157px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.meatball {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+.chosen {
+    background-color: rgba(217, 217, 217, 1);
+}
+.not-chosen {
+    background-color: rgba(217, 217, 217, 0.5);
+}

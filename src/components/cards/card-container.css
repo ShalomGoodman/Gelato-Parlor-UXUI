@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    gap: 20px;  /* adjust this value to increase or decrease the space between cards */
+    margin: 0 17px;
+    margin-bottom: 16px;
+    color: #000;  /* light mode text color */
+}
+
+/* For light mode */
+.card-container.light {
+    display: flex;
+    gap: 20px;  /* adjust this value to increase or decrease the space between cards */
+    /* background-color: #f3c76b;   */
+    color: #000;  /* light mode text color */
+}
+
+/* For dark mode */
+.card-container.dark {
+    display: flex;
+    gap: 20px;
+    /* background-color: #2f1921; */
+    color: #fff;  /* dark mode text color */
+}

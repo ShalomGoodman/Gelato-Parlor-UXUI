@@ -1,0 +1,185 @@
+/* ... Your existing styles ... */
+.container-cell-card.dark .fig-title,
+.container-cell-card.dark .passion-title,
+.container-cell-card.dark .vanilla-title {
+  color: #f3c76b;
+}
+
+.container-cell-card.dark .fig-p,
+.container-cell-card.dark .passion-p,
+.container-cell-card.dark .vanilla-p {
+  color: #ffffff; /* White color for paragraphs in dark mode */
+}
+
+.container-cell-card {
+  width: 91vw;
+  height: 396px;
+    flex-shrink: 0;
+  border-radius: var(--card-roundness, 10px);
+  box-shadow: 0px 0px 15px 5px rgb(223, 223, 223);
+  border-radius: 10px;
+  margin-left: 17px;
+  margin-right: 25px;
+  margin-top: -10px;
+  margin-bottom: 27px;
+}
+
+.container-cell-card.dark {
+  background-color: #2f1921;
+}
+
+.frame-1,
+.frame-2 {
+    padding-bottom: 10px;
+  border-bottom: 1px solid #D9D9D9; /* Add this line */
+}
+
+.container-cell-card.dark .frame-1,
+.container-cell-card.dark .frame-2 {
+    margin-bottom: 10px;
+  border-bottom: 1px solid #D9D9D9; /* Add this line */
+}
+
+.frame-1,
+.frame-2,
+.frame-3 {
+  width: 100%;
+  height: 120px;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.frame-1 .image-container,
+.frame-2 .image-container,
+.frame-3 .image-container {
+  flex: 0 0 auto;
+  padding-right: 5px;
+}
+
+.frame-1 img,
+.frame-2 img,
+.frame-3 img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  margin: 17px;
+}
+
+.frame-1 .content-container,
+.frame-2 .content-container,
+.frame-3 .content-container {
+  flex: 1;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.frame-1 .letter-table1,
+.frame-2 .letter-table2,
+.frame-3 .letter-table3 {
+  width: 225px;
+  height: 100px;
+  flex-shrink: 0;
+  flex: 1;
+}
+
+.fig-title {
+  margin: 15px 0px 0px -120px;
+}
+
+.passion-title {
+  margin: 20px 0px 0px -125px;
+}
+
+.vanilla-title {
+  margin: 25px 0px 0px -44px;
+}
+
+.vanilla-p.dark, .vanilla-p.light {
+  margin-right: -36px;
+}
+
+.frame-3 .letter-table3 p + p {
+  margin: 6px 0px 12px 0px;
+}
+
+.frame-1 .letter-table1 p,
+.frame-2 .letter-table2 p,
+.frame-3 .letter-table3 p {
+  color: #000000;
+
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.165px;
+}
+
+.frame-1 .letter-table1 p + p,
+.frame-2 .letter-table2 p + p,
+.frame-3 .letter-table3 p + p {
+  color: #000000;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.165px;
+  margin: 6px 0px 12px -40px;
+}
+
+.table-cell__button {
+  display: flex;
+  width: 60px;
+  height: 27px;
+  padding: 3px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--yellow, #f3c76b);
+  color: var(--dark-brown, #2f1921);
+
+  /* Subheader styles */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.165px;
+  user-select: none;
+  margin-left: -7px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.frame-2 .table-cell__button {
+  margin-left: -1px;
+}
+
+.frame-3 .table-cell__button {
+  margin-left: -2px;
+}
+
+.frame-3 .letter-table3 .fuck-you {
+  margin-left: -25px;
+}
+
+.container-cell-card.dark {
+  box-shadow: 0px 0px 0px 0px rgb(223, 223, 223);
+}
+
+p.fig-title.dark,
+p.passion-title.dark,
+p.vanilla-title.dark {
+  color: #f3c76b;
+}
+
+p.fig-p.dark,
+p.passion-p.dark,
+p.vanilla-p.dark {
+  color: #ffffff; /* White color for paragraphs in dark mode */
+}

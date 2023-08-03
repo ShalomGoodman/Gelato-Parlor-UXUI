@@ -1,0 +1,56 @@
+/* body {
+  background: var(--yellow, #f3c76b);
+} */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.footer-container {
+  width: 393px;
+  background: var(--yellow, #f3c76b);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 20px; /* Optional: Add some padding around the content */
+}
+.footer-container.dark-mode {
+  background-color: #2f1921;
+  color: #fff;
+}
+
+.footer-container.dark-mode .Subheader,
+.footer-container.dark-mode .small-text {
+  color: #fff;
+}
+.logo {
+  width: 161px;
+  height: 58px;
+}
+
+.frame1 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px
+}
+.Subheader {
+  color: #000;
+  /* Subheader */
+  font-family: 'Inter', sans-serif;  /* <-- change here */
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.165px;
+  margin: 18px 0px 0px 0px
+}
+
+.small-text {
+  color: #000;
+  /* Smaller Text */
+  font-family: 'Inter', sans-serif;  /* <-- and here */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.165px;
+}
